@@ -32,3 +32,6 @@
   - Instale o ssh: sudo yum install openssh-server
   - Para ativar o ssh: systemctl enable sshd
   - Para dar um restart no ssh: systemctl restart sshd
+
+# Slide de Apresentação #
+ - Link do slide: https://docs.google.com/presentation/d/1SPmTSgbefHYbRpJ9_Z5jiwKYWDLdFiFK/edit?usp=sharing&ouid=102601889449489509661&rtpof=true&sd=true
