@@ -29,9 +29,13 @@
   - Depois reinicie a máquina.
   
 # Configurando ssh #
-  - Instale o ssh: sudo yum install openssh-server
+  - Instalar servidor ssh: sudo yum install openssh-server
+  - Instalar cliente ssh: sudo yum install openssh
   - Para ativar o ssh: systemctl enable sshd
   - Para dar um restart no ssh: systemctl restart sshd
+  - Criar chave: ssh-keygen
+  - Como configurar a relação de confiança entre as duas VMs: https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-centos7-pt
+  - Conectar a VM com a relação de confiança já estabelecida: ssh username@remote_host
 
 # Slide de Apresentação #
  - Link do slide: https://docs.google.com/presentation/d/1SPmTSgbefHYbRpJ9_Z5jiwKYWDLdFiFK/edit?usp=sharing&ouid=102601889449489509661&rtpof=true&sd=true
